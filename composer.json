@@ -12,8 +12,8 @@
   ],
   "autoload": {
     "psr-0": {
-      "Icinga2_API\\Icinga2": "src/",
-      "Icinga2_API\\Exception": "src/"
+      "Icinga2_API\\Icinga2": "src/Icinga2/",
+      "Icinga2_API\\Exception": "src/Exception/"
     }
   },
   "require": {
