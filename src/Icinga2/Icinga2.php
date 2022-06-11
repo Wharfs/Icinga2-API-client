@@ -10,17 +10,17 @@
  * Time: 11:40
  */
 
-namespace De\Uniwue\RZ\Api\Icinga2;
+namespace Icinga2_API\Icinga2;
 
-use De\Uniwue\RZ\Api\Exception\InvalidConfigurationException;
-use De\Uniwue\RZ\Api\Exception\ServerNotReachableException;
-use De\Uniwue\RZ\Api\Exception\SeverNotAccessibleException;
-use De\Uniwue\RZ\Api\Icinga2\Auth\CertificateAuth;
-use De\Uniwue\RZ\Api\Icinga2\Auth\PasswordAuth;
-use De\Uniwue\RZ\Api\Icinga2\Icinga2Object\Comment;
-use De\Uniwue\RZ\Api\Icinga2\Icinga2Object\Host;
-use De\Uniwue\RZ\Api\Icinga2\Icinga2Object\Service;
-use De\Uniwue\RZ\Api\Icinga2\Query\Query;
+use Icinga2_API\Exception\InvalidConfigurationException;
+use Icinga2_API\Exception\ServerNotReachableException;
+use Icinga2_API\Exception\SeverNotAccessibleException;
+use Icinga2_API\Icinga2\Auth\CertificateAuth;
+use Icinga2_API\Icinga2\Auth\PasswordAuth;
+use Icinga2_API\Icinga2\Icinga2Object\Comment;
+use Icinga2_API\Icinga2\Icinga2Object\Host;
+use Icinga2_API\Icinga2\Icinga2Object\Service;
+use Icinga2_API\Icinga2\Query\Query;
 
 use Httpful\Request;
 use Httpful\Response;

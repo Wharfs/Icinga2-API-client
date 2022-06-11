@@ -6,7 +6,7 @@
  * Time: 10:20
  */
 
-namespace De\Uniwue\RZ\Api\Icinga2\Query;
+namespace Icinga2_API\Icinga2\Query;
 
 use Httpful\Request;
 

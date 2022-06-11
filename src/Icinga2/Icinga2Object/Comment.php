@@ -6,12 +6,11 @@
  * Time: 15:16
  */
 
-namespace De\Uniwue\RZ\Api\Icinga2\Icinga2Object;
+namespace Icinga2_API\Icinga2\Icinga2Object;
 
 
-class Service extends Icinga2Object implements Icinga2ObjectInterface
+class Comment extends Icinga2Object implements Icinga2ObjectInterface
 {
-
     public function getChildren()
     {
     }

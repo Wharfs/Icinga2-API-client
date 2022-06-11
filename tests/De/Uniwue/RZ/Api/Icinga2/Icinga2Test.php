@@ -6,12 +6,12 @@
  * Time: 11:47
  */
 
-namespace De\Uniwue\RZ\Api\Icinga2;
+namespace Icinga2_API\Icinga2;
 include("Logger.php");
 
-use De\Uniwue\RZ\Api\Exception\InvalidConfigurationException;
+use Icinga2_API\Exception\InvalidConfigurationException;
 use PHPUnit\Framework\TestCase;
-use De\Uniwue\RZ\Api\Icinga2\Logger;
+use Icinga2_API\Icinga2\Logger;
 
 class Icinga2Test extends TestCase
 {
@@ -37,13 +37,13 @@ class Icinga2Test extends TestCase
     public function testInit()
     {
         $icinga2 = new Icinga2($this->config);
-        $this->assertEquals(get_class($icinga2), "De\Uniwue\RZ\Api\Icinga2\Icinga2");
+        $this->assertEquals(get_class($icinga2), "Icinga2_API\Icinga2\Icinga2");
     }
 
     /**
      * Tests the server reachable with good data
      *
-     * @throws \De\Uniwue\RZ\Api\Exception\ServerNotReachableException
+     * @throws \Icinga2_API\Exception\ServerNotReachableException
      */
     public function testServerReachable()
     {
@@ -54,7 +54,7 @@ class Icinga2Test extends TestCase
     /**
      * Test the server reachability with invalid configuration
      *
-     * @expectedException \De\Uniwue\RZ\Api\Exception\InvalidConfigurationException
+     * @expectedException \Icinga2_API\Exception\InvalidConfigurationException
      */
     public function testServerReachableInvalidConfig()
     {
@@ -68,7 +68,7 @@ class Icinga2Test extends TestCase
      *
      * Test the server reachability with unreachable server
      *
-     * @expectedException \De\Uniwue\RZ\Api\Exception\ServerNotReachableException
+     * @expectedException \Icinga2_API\Exception\ServerNotReachableException
      */
     public function testServerReachavleServerNotReachable()
     {
@@ -81,7 +81,7 @@ class Icinga2Test extends TestCase
     /**
      * Tests the if the server is authenticable.
      *
-     * @throws \De\Uniwue\RZ\Api\Exception\SeverNotAccessibleException
+     * @throws \Icinga2_API\Exception\SeverNotAccessibleException
      * @throws \Httpful\Exception\ConnectionErrorException
      */
     public function testServerAuthenticable()

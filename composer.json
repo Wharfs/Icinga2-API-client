@@ -1,18 +1,19 @@
 {
-  "name": "rzuw/icinga2",
+  "name": "wharfs/icinga2-api-client",
   "description": "Simple Icinga2 API client for PHP",
   "version": "0.0.2",
   "license": "MIT",
   "authors": [
     {
-      "name": "Pouyan Azari",
-      "email": "pouyan.azari@uni-wuerzburg.de"
+        "name": "wharfs",
+        "email": "foxxat@gmail.com",
+        "homepage": "https://github.com/wharfs"
     }
   ],
   "autoload": {
     "psr-0": {
-      "De\\Uniwue\\RZ\\Api\\Icinga2": "src/",
-      "De\\Uniwue\\RZ\\Api\\Exception": "src/"
+      "Icinga2_API\\Icinga2": "src/",
+      "Icinga2_API\\Exception": "src/"
     }
   },
   "require": {

@@ -6,7 +6,7 @@
  * Time: 11:16
  */
 
-namespace De\Uniwue\RZ\Api\Icinga2\Auth;
+namespace Icinga2_API\Icinga2\Auth;
 
 use Httpful\Request;
 

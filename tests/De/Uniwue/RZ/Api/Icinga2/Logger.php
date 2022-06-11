@@ -6,14 +6,14 @@
  * Time: 13:52
  */
 
-namespace De\Uniwue\RZ\Api\Icinga2;
+namespace Icinga2_API\Icinga2;
 
 /**
  * Class Logger
  * This is a simple log system that is used for debuging the application. This replicate
  * the monolog logger.
  *
- * @package De\Uniwue\RZ\Api\Icinga2
+ * @package Icinga2_API\Icinga2
  */
 
 class Logger

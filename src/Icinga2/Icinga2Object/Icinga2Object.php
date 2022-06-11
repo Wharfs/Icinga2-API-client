@@ -6,7 +6,7 @@
  * Time: 09:28
  */
 
-namespace De\Uniwue\RZ\Api\Icinga2\Icinga2Object;
+namespace Icinga2_API\Icinga2\Icinga2Object;
 
 
 class Icinga2Object

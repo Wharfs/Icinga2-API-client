@@ -3,16 +3,15 @@
  * Created by PhpStorm.
  * User: poa32kc
  * Date: 14.12.17
- * Time: 11:59
+ * Time: 14:39
  */
 
-namespace De\Uniwue\RZ\Api\Exception;
+namespace Icinga2_API\Exception;
 
+class ServerNotReachableException extends \Exception{
 
-class SeverNotAccessibleException extends \Exception
-{
     /**
-     * SeverNotAccessibleException constructor.
+     * ServerNotReachableException constructor.
      * @param string $message
      * @param int $code
      * @param Throwable|null $previous
