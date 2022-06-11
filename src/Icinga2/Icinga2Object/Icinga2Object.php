@@ -14,27 +14,27 @@ class Icinga2Object
     /**
      * @var array
      */
-    private $attributes;
+    public $attributes;
 
     /**
      * @var array
      */
-    private $meta;
+    public $meta;
 
     /**
      * @var array
      */
-    private $joins;
+    public $joins;
 
     /**
      * @var string
      */
-    private $name;
+    public $name;
 
     /**
      * @var string
      */
-    private $type;
+    public $type;
 
     /**
      * Icinga2Object constructor.
